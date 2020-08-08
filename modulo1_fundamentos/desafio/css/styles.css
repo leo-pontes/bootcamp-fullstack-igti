@@ -1,0 +1,43 @@
+body {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  border-radius: 50%;
+}
+
+.parte-busca {
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  padding-left: 10%;
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  text-align: left;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}

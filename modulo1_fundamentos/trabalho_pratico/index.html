@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          (R) Vermelho:
+        </td>
+        <td>
+          <input
+            id="rangeVermelho"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td>
+          <input id="idVermelho" class="valor" type="text" disabled value="0" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          (G) Verde:
+        </td>
+        <td>
+          <input
+            id="rangeVerde"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td>
+          <input id="idVerde" class="valor" type="text" disabled value="0" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          (B) Azul:
+        </td>
+        <td>
+          <input
+            id="rangeAzul"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+        </td>
+        <td>
+          <input id="idAzul" class="valor" type="text" disabled value="0" />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <div id="rectangle"></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.divProgress {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.progressSalarioLiquido {
+    height: 30px;
+    background-color: #16a085;
+}
+
+.progressInss {
+    height: 30px;
+    background-color: #e67e22;
+}
+
+.progressIrpf {
+    height: 30px;
+    background-color: #c0392b;
+}

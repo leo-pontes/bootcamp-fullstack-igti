@@ -1,0 +1,23 @@
+body {
+    align-items: center;
+    margin: 50px;
+    background-origin: padding-box;
+}
+
+table {
+    font-weight: bold;
+}
+
+#rectangle {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #000000;
+    background-color: #000000;
+}
+
+.valor {
+    width: 50px;
+}

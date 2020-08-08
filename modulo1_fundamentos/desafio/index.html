@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Desafio</h1>
+    <div class="parte-busca">
+      <br />
+      <input id="txtBusca" type="text" placeholder="Digite a buscar aqui ..." />
+      <!--prettier-ignore-->
+      <a id="btnBusca" class="waves-effect waves-light btn green darken-4">Buscar</a>
+    </div>
+    <div class="container">
+      <div class="person-list">
+        <h3><span id="countUsers"></span> usuário(s)<br />encontrado(s)</h3>
+        <div id="tabPeople"></div>
+      </div>
+      <div class="person-list">
+        <h3>Estatísticas</h3>
+        <h6>Sexo Masculino: <span id="totMasculino"></span></h6>
+        <h6>Sexo Feminino: <span id="totFeminino"></span></h6>
+        <h6>Soma das Idades: <span id="sumIdade"></span></h6>
+        <h6>Média das Idades: <span id="medIdade"></span></h6>
+        <div id="tabFavorites"></div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
